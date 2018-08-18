@@ -11,7 +11,7 @@ https://github.com/jivoi/pentest/
 
 **You'll need to update Kali's Impacket version to 0_9_17**
 
-Here's the steps to do that:
+Here in 2018, Kali's package management is on an old version of Impacket.  Here's the steps on how to fix it:
 
 ```
 git clone --branch impacket_0_9_17 --single-branch https://github.com/CoreSecurity/impacket/
