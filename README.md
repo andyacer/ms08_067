@@ -21,9 +21,11 @@ pip install .
 
 ## Update Notes
 
-- Added support for selecting a target port at the command line.  It seemed that only 445 was previously supported.
-- Changed library calls to correctly establish a NetBIOS session for SMB transport
-- Changed shellcode handling to allow for variable length shellcode. Just cut and paste into this source file.
+```diff
++ Added support for selecting a target port at the command line.  It seemed that only 445 was previously supported.
++ Changed library calls to correctly establish a NetBIOS session for SMB transport
++ Changed shellcode handling to allow for variable length shellcode. Just cut and paste into this source file.
+```
 
 ## Generating Shellcode
 
