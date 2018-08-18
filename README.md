@@ -9,7 +9,8 @@ https://github.com/jivoi/pentest/
 
 `git clone https://github.com/andyacer/ms08_067/`
 
-**You'll need to update Kali's Impacket version to 0_9_17** \\
+**You'll need to update Kali's Impacket version to 0_9_17**
+
 Here's the steps to do that:
 
 ```
