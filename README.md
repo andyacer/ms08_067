@@ -2,7 +2,7 @@
 
 This is an updated version of the super old MS08-067 Python exploit script.  It implements some fixes to allow easy exploitation on a wider range of configurations.
 
-Cloned and edited from this repository:
+Cloned and edited from this repository:  
 https://github.com/jivoi/pentest/
 
 ## Installation on Kali
@@ -48,8 +48,6 @@ Usage: ms08_067_2018.py <target ip> <os #> <Port #>
 * ms08_067_2018.py 192.168.1.1 6 445 -- for Windows XP SP3 English (NX)
 * ms08_067_2018.py 192.168.1.1 7 445 -- for Windows XP SP3 English (AlwaysOn NX)
 
-
-Also: nmap has a good OS discovery script that pairs well with this exploit:
-
+Also: nmap has a good OS discovery script that pairs well with this exploit:  
 nmap -p 139,445 --script-args=unsafe=1 --script /usr/share/nmap/scripts/smb-os-discovery 192.168.1.1
 
