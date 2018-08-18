@@ -1,5 +1,4 @@
 # MS08_067 Python Exploit Script - Updated 2018
-## Updating MS08-067 Python exploit script
 
 This is an updated version of the super old MS08-067 Python exploit script.  It implements some fixes to allow easy exploitation on a wider range of configurations.
 
